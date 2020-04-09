@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="47dp"
+        android:layout_height="59dp"
+        android:padding="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="47dp"
+        android:layout_height="59dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_below="@id/tag"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ph" />
+
+    <ImageView
+        android:id="@+id/mail"
+        android:layout_width="47dp"
+        android:layout_height="59dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:layout_below="@id/course1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mail" />
+
+
+    <ImageView
+        android:id="@+id/web"
+        android:layout_width="47dp"
+        android:layout_height="59dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:layout_below="@id/course2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/net" />
+
+    <ImageView
+        android:id="@+id/address"
+        android:layout_width="47dp"
+        android:layout_height="59dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:layout_below="@id/course3"
+
+        android:src="@drawable/loc" />
+
+    <ImageView
+        android:id="@+id/ti_ic"
+        android:layout_width="47dp"
+        android:layout_height="59dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:layout_below="@id/add"
+
+        android:src="@drawable/clock" />
+
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="61dp"
+        android:layout_height="51dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:src="@drawable/home" />
+
+
+    <ImageView
+        android:id="@+id/capital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back"
+        android:layout_marginTop="-257dp"
+        android:src="@drawable/capital" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/capital"
+        android:layout_marginTop="-255dp"
+        android:fontFamily="serif"
+        android:paddingLeft="65dp"
+        android:text="Capital Academy"
+        android:textColor="#792EB5"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company"
+        android:layout_marginTop="3dp"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="65dp"
+        android:text="Here You Learn the Magic of Money"
+        android:textColor="#792EB5"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tag"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="65dp"
+        android:text="+91 99 8887 5565"
+        android:textColor="#792EB5"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course1"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="65dp"
+        android:text="capi@academ.com"
+        android:textColor="#792EB5"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/course3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course2"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="65dp"
+        android:text="www.capi.academ.com"
+        android:textColor="#792EB5"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course3"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="65dp"
+        android:text="Stark Tower,Mumbai,Floor 17,India"
+        android:textColor="#792EB5"
+        android:textSize="20sp" />
+
+
+
+    <TextView
+        android:id="@+id/hrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="65dp"
+        android:text="10am -6pm"
+        android:textColor="#792EB5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hrs"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingRight="28dp"
+        android:paddingLeft="65dp"
+        android:paddingBottom="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="We Stands First in providing standard education to all we provide scholarship to all toppers in exams we produce sucessful MBA graduates.Our Candidates tops in Attitude and Aptitude."
+        android:textColor="#792EB5"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
+
+    </ScrollView>
